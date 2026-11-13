@@ -1,22 +1,17 @@
 {
   "name": "Anna-PDF-2-FB2",
-  "private": true,
-  "version": "0.0.0",
   "type": "module",
+  "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "vue": "^3.5.44"
-  },
-  "devDependencies": {
-    "@types/node": "^24.19.2",
-    "@vitejs/plugin-vue": "^6.0.10",
-    "@vue/tsconfig": "^0.9.1",
-    "typescript": "~6.0.3",
-    "vite": "^8.3.6",
-    "vue-tsc": "^3.3.14"
+    "nuxt": "^4.6.4",
+    "vue": "^3.5.45",
+    "vue-router": "^5.4.0"
   }
 }
